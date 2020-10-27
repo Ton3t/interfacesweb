@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 0.5rem;
+    grid-template-areas:
+      "zona";
+}
+
+.tarjetas {
+    grid-area: "zona";
+    max-width: 200px;
+    background-color: gray;
+}
+
+.tarjetas img {
+    width: 100%;
+}
+
+.tarjetas input {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.margin {
+    margin: 1rem;
+    text-align: center;
+}

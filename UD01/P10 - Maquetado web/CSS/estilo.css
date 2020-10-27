@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 910px;
+    margin: auto;
+}
+
+#cabecera {
+    width: 900px;
+    float: right;
+    padding: 0.5em;
+    background-image: url(../static/imagenes/cabecera.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    color: white;
+}
+
+#identificador {
+    width: 300px;
+    height: 100px;
+    float: left;
+    clear: none;
+}
+
+#busqueda {
+    float: right;
+    width: 250px;
+    height: 100px;
+    padding-top: 5px;
+    overflow: visible;
+    clear: none;
+}
+
+#menu {
+    width: 900px;
+    float: right;
+    height: 30px;
+    border: 2px white;
+    clear: both;
+}
+
+#pie {
+    width: 910px;
+    text-align: center;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    background-color: #fdf4b5;
+    border-width: thin;
+    border-color: #03c;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+#lateral-izquierdo {
+    float: left;
+    width: 245px;
+    margin-right: 10px;
+    background-image: url(../static/imagenes/flateral.gif);
+}
+
+#principal {
+    float: left;
+    width: 400px;
+    clear: none;
+    background-image: url(../static/imagenes/fprincipal.jpg);
+    background-repeat: repeat-y;
+}
+
+#lateral-derecho {
+    float: right;
+    width: 245px;
+    margin-right: 4px;
+    background-image: url(../static/imagenes/fderecho.gif);
+    border-width: thin;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: #999;
+}
+
+/* 3. Menu */
+
+#menu ul {
+    list-style: none;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+#menu ul li {
+    list-style: none;
+    float: left;
+    height: 25px;
+    width: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#menu li a:hover {
+    list-style: none;
+    background-image: url(../static/imagenes/orange_bullet.gif);
+    background-repeat: repeat-x;
+    text-shadow: 0 0 5px #f9fc8d;
+}
+
+#menu ul li a.seleccionado {
+    text-shadow: 0px 0px 15px #666;
+    font-weight: bold;
+    color: #fff;
+}
+
+body {
+    background-image: url(../static/imagenes/fondo.gif);
+    background-repeat: repeat-x;
+    background-color: #f2f5fe;
+}
+
+.articulo {
+    background-image: url(../static/imagenes/fondo.gif);
+    background-repeat: repeat-x;
+    padding: 20px;
+}
+
+.articulo h2 {
+    background-color: #dee5fd;
+    color: #600;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#noticias, #enlaces, #publicidad {
+    background-image: url(../static/imagenes/fnoticias.gif);
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-width: thin;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: #999;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    background-image: url(../static/imagenes/ftitulos.gif);
+    padding: 10px;
+}
+
+.articulo img {
+    float: left;
+    margin: 5px;
+}
+
+#lateral-derecho h2 {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}

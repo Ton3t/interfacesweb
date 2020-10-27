@@ -1,0 +1,53 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 0.7fr 1.2fr 1fr;
+  grid-template-rows: 0.5fr 1.9fr 0.6fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "HEADER HEADER HEADER HEADER HEADER"
+    "ASIDE-1 MAIN MAIN MAIN ASIDE-2"
+    ". FOOTER FOOTER FOOTER .";
+}
+
+.HEADER { grid-area: HEADER; }
+
+.ASIDE-1 { grid-area: ASIDE-1; }
+
+.ASIDE-2 { grid-area: ASIDE-2; }
+
+.MAIN {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.2fr 0.8fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "SUB-1 SUB-2 SUB-3"
+    "SUB-MAIN-FOOTER SUB-MAIN-FOOTER SUB-MAIN-FOOTER";
+  grid-area: MAIN;
+}
+
+.SUB-MAIN-FOOTER { grid-area: SUB-MAIN-FOOTER; }
+
+.SUB-1 { grid-area: SUB-1; }
+
+.SUB-2 { grid-area: SUB-2; }
+
+.SUB-3 { grid-area: SUB-3; }
+
+.FOOTER { grid-area: FOOTER; }
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

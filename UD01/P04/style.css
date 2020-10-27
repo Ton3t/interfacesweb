@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+div[class*="caja-"] {
+    height: 200px;
+    float:left;
+    border: 5px solid #fff;
+    color: #fff;
+}	
+
+.caja-1, .caja-2, .caja-3 {
+    width: 33.33%;
+    height: 200px;
+    background-color: #bb00bb;
+    border: 5px solid  #fff;
+}
+
+.caja-4 {
+    width: 100%;
+    background-color: #252525;
+}
+
+.caja-5 {
+    width: 33.33%;
+    background-color: #6499fc;
+}
+
+.caja-6, .caja-7, .caja-8 {
+    width: 33.33%;
+    background-color: #ff0064;
+}

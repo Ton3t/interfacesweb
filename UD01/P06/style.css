@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    width: 100vw;
+}
+
+.cartas {
+    width: 200px;
+    height: 45vh;
+    box-shadow: 2px 2px 6px 0px;
+    border-color: #000000;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.cartas h1 {
+    font-size: 1rem;
+}
+
+.cartas img {
+    width: 100%;
+}
+
+.centra {
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.texto {
+    margin: 5px;
+}
+

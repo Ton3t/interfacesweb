@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.rojo {
+    width: 33.33%;
+    height: 200px;
+    background: #f00;
+    float: left;
+}
+
+.verde {
+    width: 33.33%;
+    height: 200px;
+    background: #008f39;
+    float: left;
+}
+
+.azul {
+    width: 33.33%;
+    height: 200px;
+    background: #3b83bd;
+    float: left;
+}
+
+.negro {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    float: left;
+}
+
+.rosa {
+    width: 50%;
+    height: 200px;
+    background: #ff0080;
+    float: left;
+}
+
+.naranja {
+    width: 50%;
+    height: 200px;
+    background: #ff8000;
+    float: left;
+}

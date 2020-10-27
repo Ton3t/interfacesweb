@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    width: 60vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;    
+}
+
+.caja1 {
+    width: 40%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.peq {
+    width: 50%;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    margin-top: 10px;
+}
+
+select {
+    width: 80%;
+    margin-top: 10px;
+}
+
+#submit {
+    height: 50px;
+    width: 30%;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+
+.subCajas {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.c2col1 {
+    width: 35%;
+}
+
+.c2col2 {
+    width: 65%;
+}
+
+.sub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.itemSub {
+    width: 50%;
+}
+
+
+
+.pie {
+    width: 100%;
+}
+
+.fantasma {
+    display: none;
+}
+
+/* transiciones */
+
+.caja1:hover {
+    background-color: cadetblue;
+}
+
+.caja1:hover .fantasma {
+    background-color: cadetblue;
+    display: block;
+}
+
+input:focus {
+    border: green 5px solid;
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        width: 100%;
+    }
+    .caja1 {
+        width: 100%;
+    }
+}

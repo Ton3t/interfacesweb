@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    background-image: url('fondos/1.jpg');
+    background-repeat: repeat;
+}
+
+nav {
+    width: 100vw;
+    height: 15vh;
+    padding: 1rem;
+}
+
+aside {
+    width: 20vw;
+    height: 40vh;
+    padding: 1rem;
+}
+
+section {
+    width: 80vw;
+    height: 75vh;
+    padding: 1rem;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    padding: 1rem;
+}
+
+.caja1 {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-image: url('fondos/2.jpg');
+    background-repeat: repeat;
+}
+
+.caja2 {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-image: url('fondos/3.jpg');
+    background-repeat: repeat;
+}
+
+.caja3 {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-image: url('fondos/4.jpg');
+    background-repeat: repeat;
+}
+
+.caja4 {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-image: url('fondos/5.jpg');
+    background-repeat: repeat;
+}

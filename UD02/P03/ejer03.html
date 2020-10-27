@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/06b6f163a6.js" crossorigin="anonymous" defer></script>
+    <title>Ventana Modal</title>
+</head>
+<body>
+    <input type="button" value="Abrir Modal" id="idAbrirmodal">
+    <div class="modal" id="idModal">
+        <div id="arriba"></div>
+        <div id="izquierda"></div>
+        <div class="contenidoModal">
+            <div class="item">
+                <div class="botones">
+                    <i class="fas fa-times-circle" id="idCerrarmodal"></i>
+                </div>
+            </div>
+            <div class="item">
+                <h1>Titulo de la ventana Modal</h1>
+                <hr>
+            </div>
+            <div class="item">
+                <p>
+                    Este es el contenido de la ventana modal.
+                </p>
+                <hr>
+            </div>
+            <div class="item">
+                <div class="botones">
+                    <input type="button" value="Aceptar" id="idAceptar">
+                    <input type="button" value="Cerrar" id="idCancelar">
+                </div>
+            </div>
+        </div>
+        <div id="derecha"></div>
+        <div id="abajo"></div>
+    </div>
+</body>
+</html>

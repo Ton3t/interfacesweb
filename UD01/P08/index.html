@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <form action="get">
+            <div class="item">
+                <div class="titulo"><h1>Formulario de Alta</h1></div>
+            </div>
+            <div class="caja1">
+                <div class="titulo">
+                    <h3>Nombre y apellido</h3>
+                    <p class="fantasma">El nombre es obligatorio</p>
+                </div>
+                <div class="item">
+                    <input type="text" id="nombre" class="peq">
+                    <br/>
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="item">
+                    <input type="text" id="apellido1"><br/>
+                    <label for="apellido1">Primer apellido</label>
+                </div>
+                <div class="item">
+                    <input type="text" id="apellido2"><br/>
+                    <label for="apellido2">Segundo apellido</label>
+                </div>
+            </div>
+            <div class="caja1">
+                <div class="titulo"><h3>Dirección</h3></div>
+                <p class="fantasma">El codigo postal es obligatorio</p>
+                <div class="item">
+                    <input type="text" id="dir"><br/>
+                    <label for="dir">Calle, número, piso, puerta</label>
+                </div>
+                <div class="subCajas">
+                    <div class="c2col1">
+                        <div class="item">
+                            <input type="number" id="cdpostal"><br/>
+                            <label for="cdpostal">Código postal</label>
+                        </div>
+                        <div class="item">
+                            <select id="provincia">
+                                <option value="alicante" selected="selected">Alicante</option>
+                                <option value="valencia">Valencia</option>
+                                <option value="castellon">Castellón</option>
+                            </select>
+                            <label for="provincia">Provincia</label>
+                        </div>
+                    </div>
+                    <div class="c2col2">
+                        <div class="item">
+                            <input type="text" id="municipio"><br/>
+                            <label for="municipio">Municipio</label>
+                        </div>
+                        <div class="item">
+                            <input type="text" id="pais"><br/>
+                            <label for="pais">País</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="caja1">
+                <div class="item">
+                    <h3 class="titulo">Email</h3>
+                    <p class="fantasma">El email es obligatorio</p>
+                    <input type="email" id="email">
+                </div>
+            </div>
+            <div class="caja1">
+                <div class="item">
+                    <h3 class="titulo">Telefono</h3>
+                    <p class="fantasma">El movil es obligatorio</p>
+                </div>
+                <div class="sub">
+                    <div class="itemSub">
+                        <input type="number" id="fijo"><br/>
+                        <label for="fijo">Fijo</label>
+                    </div>
+                    <div class="itemSub">
+                        <input type="number" id="movil"><br/>
+                        <label for="movil">Movil</label>
+                    </div>
+                </div>
+            </div>
+            <div class="pie">
+                <div class="item">
+                    <input type="submit" value="Dame de alta ->" id="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

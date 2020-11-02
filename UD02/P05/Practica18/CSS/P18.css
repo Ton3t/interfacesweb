@@ -250,3 +250,7 @@ footer a {
   }
   
 }
+
+.animate__bounceInDown {
+  --animate-duration: 2s;
+}
